@@ -1,0 +1,5 @@
+.idea
+.vscode
+
+android/basic-webview/app/build
+android/webview-with-popup/app/build
