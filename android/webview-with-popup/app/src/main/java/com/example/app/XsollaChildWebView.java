@@ -16,7 +16,7 @@ public class XsollaChildWebView extends WebView {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
 
-        setWebViewClient(new XsollaWebViewClient());
+        setWebViewClient(new XsollaWebViewClient(context));
         setWebChromeClient(new XsollaWebChromeClient(context));
     }
 }
