@@ -1,8 +1,7 @@
 ## Description
-Это базовая реализация WebView, которая скорее всего будет у партнеров. В ней нет отдельной логики
-по поддержке popup-ов
+This is the basic WebView implementation that partners are likely to have. There is no separate logic to support popups in it
 
 ## Launch
-Запуск осуществляется через Gradle.
+The launch is carried out via Cradle.
 
-Url задается в MainActivity - mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohTCeAejOzjimEjZ2wEhFtjR7yakUr_lc_en");
+You can setup url in MainActivity - mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohTCeAejOzjimEjZ2wEhFtjR7yakUr_lc_en");

@@ -2,9 +2,16 @@
 
 ## Description
 
-В этом репозитории представлены реализации различных Web View на отдельных платформах.
-Через них можно тестировать интеграции Pay Station 4 и воспроизводить баги, которые приходят от партнеров
+This repository presents implementations of various WebViews on separate platforms.
+Through them, you can test Pay Station 4 integrations and reproduce bugs that come from partners
 
 ## Platforms
 
 * Android
+* iOS
+
+## Guide to develop/testing
+
+### Android
+
+You should open directory with android app as root repository, otherwise gradle will won't detected and build will be failed 
