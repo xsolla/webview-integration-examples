@@ -17,8 +17,6 @@ public class XsollaWebChromeClient extends WebChromeClient {
 
         view.addView(newWebView);
 
-        view.
-
         WebView.WebViewTransport transport = (WebView.WebViewTransport) resultMsg.obj;
         transport.setWebView(newWebView);
         resultMsg.sendToTarget();

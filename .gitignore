@@ -1,5 +1,45 @@
 .idea
 .vscode
 
+## Android
 android/basic-webview/app/build
+android/*/.gradle
 android/webview-with-popup/app/build
+
+## IOS
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+## Build generated
+ios/web-view/build/
+ios/web-view/DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+ios/web-view/Pods/
+
+# Swift Package Manager
+ios/web-view/.build

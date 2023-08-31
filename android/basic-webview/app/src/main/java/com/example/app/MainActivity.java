@@ -31,13 +31,16 @@ public class MainActivity extends Activity {
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
         webSettings.setJavaScriptEnabled(true);
 
+        // Custom user agent
+        // webSettings.setUserAgentString("Xsolla/App");
+
         webSettings.setSupportMultipleWindows(true);
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
 
         mWebView.setWebViewClient(new XsollaWebViewClient());
         mWebView.setWebChromeClient(new XsollaWebChromeClient());
 
-        mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohTCeAejOzjimEjZ2wEhFtjR7yakUr_lc_en");
+        mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohMVftnebxFDlUa50tUeUf3suXJygb_lc_en");
     }
 
     @Override
