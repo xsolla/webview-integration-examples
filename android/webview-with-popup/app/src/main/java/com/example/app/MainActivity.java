@@ -38,9 +38,9 @@ public class MainActivity extends Activity {
         webSettings.setSupportMultipleWindows(true);
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
 
-        mWebView.setWebViewClient(new XsollaWebViewClient());
+        mWebView.setWebViewClient(new XsollaWebViewClient(this));
         mWebView.setWebChromeClient(new XsollaWebChromeClient(this));
 
-        mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohTCeAejOzjimEjZ2wEhFtjR7yakUr_lc_en");
+        mWebView.loadUrl("https://secure.xsolla.com/paystation4/?token=bvq6hkyVWq6PIiZgY4MqVeEt7AsziMfT_lc_zh_bg_FFFFFF_tb_3D46F5");
     }
 }
