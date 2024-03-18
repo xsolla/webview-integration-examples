@@ -1,0 +1,10 @@
+.idea
+.vscode
+
+## Android
+examples/webview-with-popup/.gradle
+examples/webview-with-popup/local.properties
+examples/webview-with-popup/app/build
+
+### macOS ###
+*.DS_Store
