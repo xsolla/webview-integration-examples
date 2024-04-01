@@ -5,6 +5,7 @@
 android/basic-webview/app/build
 android/*/.gradle
 android/webview-with-popup/app/build
+android/basic-custom-tab/app/build
 
 ## IOS
 ### macOS ###
