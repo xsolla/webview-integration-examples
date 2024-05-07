@@ -8,8 +8,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class MainActivity extends Activity {
-    private WebView mWebView;
-    XsollaChildWebView mChildWebView;
+    public WebView mWebView;
+    public XsollaChildWebView mChildWebView;
+
 
     @Override
     @SuppressLint("SetJavaScriptEnabled")
@@ -17,7 +18,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mWebView = findViewById(R.id.activity_main_webview);
+        mWebView = findViewById(R.id.mainWebView);
         mChildWebView = findViewById(R.id.childWebView);
 
         WebView.setWebContentsDebuggingEnabled(true);
@@ -41,6 +42,6 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new XsollaWebViewClient(this));
         mWebView.setWebChromeClient(new XsollaWebChromeClient(this));
 
-        mWebView.loadUrl("https://secure.xsolla.com/paystation4/?token=bvq6hkyVWq6PIiZgY4MqVeEt7AsziMfT_lc_zh_bg_FFFFFF_tb_3D46F5");
+        mWebView.loadUrl("https://secure.xsolla.com/paystation4/?token=3gokZlaQybtqquhI5otzU88yDJ3axR57_lc_en_bg_FFFFFF_tb_64F53D");
     }
 }
