@@ -1,10 +1,3 @@
-//
-//  SafariWebView.swift
-//  Xsolla WebView
-//
-//  Created by ni.poluhin on 05.07.2022.
-//
-
 import SwiftUI
 import SafariServices
 
@@ -77,7 +70,7 @@ extension Hostable {
 struct SafariWebView: View {
     struct RootView: View, Hostable {
         @EnvironmentObject private var hostedObject: HostingObject<Self>
-        @State private var address = "http://localhost:3000/?access_token=9ns99WkR46MVGifhBBsy4SZG4WAPFHJM__default_dark"
+        @State private var address = "https://developers.google.com/pay/api/web/guides/resources/demos?hl=ru"
     
         var body: some View {
             VStack {

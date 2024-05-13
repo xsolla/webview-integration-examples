@@ -1,13 +1,16 @@
 ## Description
-This is the basic WebView implementation that partners are likely to have. There is no separate logic to support popups in it
+This is the basic WebView implementation that partners are likely to have. 
+In WKWebView solution we can handle popups.
 
 Currently, we support this webview solutions:
 * SafariViewController
 * WKWebView
 
-## Launch
-The launch is carried out via Cradle.
+## Install
+At first step we should install deps for this project, for this we using [cocoapods](https://cocoapods.org). Please install it, after that just run `pod install`.
 
+
+## WebView setup
 You can setup url in:
-* Shared/SafariWebView.swift - Line 80 `@State private var address = "http://localhost:3000/?access_token=9ns99WkR46MVGifhBBsy4SZG4WAPFHJM__default_dark"`
-* Shared/WKWebViewScreen.swift - Line 13 `@State private var address = "https://ps4-live-demo--preview-b1m6x4bu.web.app""`
+* Shared/SafariWebView.swift - Line 73 `@State private var address = "https://secure.xsolla.com/paystation4?token=u3ohA1skYQcMez53QRijxyB6B58xjDuh_lc_en"`
+* Shared/WKWebViewScreen.swift - Line 6 `@State private var address = "https://secure.xsolla.com/paystation4?token=3gokr0iLa6ltL7JFLNgu9eXznE503iyS_lc_en_bg_FFFFFF_tb_64F53D"`
