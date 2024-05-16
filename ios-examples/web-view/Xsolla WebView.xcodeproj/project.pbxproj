@@ -8,17 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		957FD7CC2872C3F60020F26F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FD7CB2872C3F60020F26F /* WebView.swift */; };
-		957FD7CD2872C3F60020F26F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FD7CB2872C3F60020F26F /* WebView.swift */; };
 		957FD7D2287449350020F26F /* WKWebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FD7D1287449350020F26F /* WKWebViewScreen.swift */; };
-		957FD7D3287449350020F26F /* WKWebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FD7D1287449350020F26F /* WKWebViewScreen.swift */; };
 		95D59F17286ECD820037C0F8 /* Xsolla_WebViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D59F07286ECD7E0037C0F8 /* Xsolla_WebViewApp.swift */; };
-		95D59F18286ECD820037C0F8 /* Xsolla_WebViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D59F07286ECD7E0037C0F8 /* Xsolla_WebViewApp.swift */; };
 		95D59F19286ECD820037C0F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D59F08286ECD7E0037C0F8 /* ContentView.swift */; };
-		95D59F1A286ECD820037C0F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D59F08286ECD7E0037C0F8 /* ContentView.swift */; };
 		95D59F1B286ECD820037C0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D59F09286ECD820037C0F8 /* Assets.xcassets */; };
-		95D59F1C286ECD820037C0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D59F09286ECD820037C0F8 /* Assets.xcassets */; };
 		9DA3422256C73672EDE6E565 /* Pods_Xsolla_WebView__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D2DE72D08B683CFD06E18D /* Pods_Xsolla_WebView__iOS_.framework */; };
-		D9BAF7315C6F845EEB204D69 /* Pods_Xsolla_WebView__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB35A16CADA8ABB8B60A6AA7 /* Pods_Xsolla_WebView__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +27,6 @@
 		95D59F08286ECD7E0037C0F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95D59F09286ECD820037C0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D59F0E286ECD820037C0F8 /* Xsolla WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xsolla WebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95D59F14286ECD820037C0F8 /* Xsolla WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xsolla WebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D59F16286ECD820037C0F8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B2894D6EAC62F396368029EA /* Pods-Xsolla WebView (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xsolla WebView (macOS).release.xcconfig"; path = "Target Support Files/Pods-Xsolla WebView (macOS)/Pods-Xsolla WebView (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		EB35A16CADA8ABB8B60A6AA7 /* Pods_Xsolla_WebView__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xsolla_WebView__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,14 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA3422256C73672EDE6E565 /* Pods_Xsolla_WebView__iOS_.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95D59F11286ECD820037C0F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9BAF7315C6F845EEB204D69 /* Pods_Xsolla_WebView__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				95D59F0E286ECD820037C0F8 /* Xsolla WebView.app */,
-				95D59F14286ECD820037C0F8 /* Xsolla WebView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,24 +125,6 @@
 			productReference = 95D59F0E286ECD820037C0F8 /* Xsolla WebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		95D59F13286ECD820037C0F8 /* Xsolla WebView (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 95D59F22286ECD820037C0F8 /* Build configuration list for PBXNativeTarget "Xsolla WebView (macOS)" */;
-			buildPhases = (
-				C40881BDE5F419A0CBE17F1B /* [CP] Check Pods Manifest.lock */,
-				95D59F10286ECD820037C0F8 /* Sources */,
-				95D59F11286ECD820037C0F8 /* Frameworks */,
-				95D59F12286ECD820037C0F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Xsolla WebView (macOS)";
-			productName = "Xsolla WebView (macOS)";
-			productReference = 95D59F14286ECD820037C0F8 /* Xsolla WebView.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,9 +136,6 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					95D59F0D286ECD820037C0F8 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					95D59F13286ECD820037C0F8 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -191,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				95D59F0D286ECD820037C0F8 /* Xsolla WebView (iOS) */,
-				95D59F13286ECD820037C0F8 /* Xsolla WebView (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -202,14 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D59F1B286ECD820037C0F8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95D59F12286ECD820037C0F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95D59F1C286ECD820037C0F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,28 +192,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C40881BDE5F419A0CBE17F1B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Xsolla WebView (macOS)-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -271,17 +203,6 @@
 				957FD7D2287449350020F26F /* WKWebViewScreen.swift in Sources */,
 				95D59F19286ECD820037C0F8 /* ContentView.swift in Sources */,
 				95D59F17286ECD820037C0F8 /* Xsolla_WebViewApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95D59F10286ECD820037C0F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				957FD7CD2872C3F60020F26F /* WebView.swift in Sources */,
-				957FD7D3287449350020F26F /* WKWebViewScreen.swift in Sources */,
-				95D59F1A286ECD820037C0F8 /* ContentView.swift in Sources */,
-				95D59F18286ECD820037C0F8 /* Xsolla_WebViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +341,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poluhin.Xsolla-WebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xsolla.demo.web-view";
 				PRODUCT_NAME = "Xsolla WebView";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,68 +377,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poluhin.Xsolla-WebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xsolla.demo.web-view";
 				PRODUCT_NAME = "Xsolla WebView";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		95D59F23286ECD820037C0F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A0A60A9C252D4B7AE0C90B5 /* Pods-Xsolla WebView (macOS).debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xsolla.Xsolla-WebView";
-				PRODUCT_NAME = "Xsolla WebView";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		95D59F24286ECD820037C0F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2894D6EAC62F396368029EA /* Pods-Xsolla WebView (macOS).release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xsolla.Xsolla-WebView";
-				PRODUCT_NAME = "Xsolla WebView";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -535,15 +408,6 @@
 			buildConfigurations = (
 				95D59F20286ECD820037C0F8 /* Debug */,
 				95D59F21286ECD820037C0F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95D59F22286ECD820037C0F8 /* Build configuration list for PBXNativeTarget "Xsolla WebView (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95D59F23286ECD820037C0F8 /* Debug */,
-				95D59F24286ECD820037C0F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
