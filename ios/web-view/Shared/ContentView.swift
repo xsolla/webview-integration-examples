@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by ni.poluhin on 01.07.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -20,7 +13,7 @@ struct ContentView: View {
                     Text("SafariViewController")
                 }
             }
-            .navigationBarTitle("WebView Solutions")
+            .navigationBarTitle("WebView Solutions", displayMode: .inline)
         }
         
     }
