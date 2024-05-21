@@ -8,8 +8,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class MainActivity extends Activity {
-    private WebView mWebView;
-    XsollaChildWebView mChildWebView;
+    public WebView mWebView;
+    public XsollaChildWebView mChildWebView;
 
     @Override
     @SuppressLint("SetJavaScriptEnabled")
@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mWebView = findViewById(R.id.activity_main_webview);
+        mWebView = findViewById(R.id.mainWebView);
         mChildWebView = findViewById(R.id.childWebView);
 
         WebView.setWebContentsDebuggingEnabled(true);

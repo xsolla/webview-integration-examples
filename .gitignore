@@ -2,9 +2,9 @@
 .vscode
 
 ## Android
-examples/webview-with-popup/.gradle
-examples/webview-with-popup/local.properties
-examples/webview-with-popup/app/build
+android-examples/webview-with-popup/.gradle
+android-examples/webview-with-popup/local.properties
+android-examples/webview-with-popup/app/build
 
 ## IOS
 ### macOS ###

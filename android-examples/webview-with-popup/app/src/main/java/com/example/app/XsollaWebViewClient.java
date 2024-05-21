@@ -18,17 +18,18 @@ class XsollaWebViewClient extends WebViewClient {
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if(url.matches(".+://.*")) {
+        if (url.matches(".+://.*")) {
             try {
                 Intent intent = Intent.parseUri(url, Intent.URI_INTENT_SCHEME);
                 intent.addCategory("android.intent.category.BROWSABLE");
                 intent.setComponent(null);
                 context.startActivity(intent);
-            } catch(URISyntaxException e) {
-                Log.e("WebView", "Invalid URL format" + url, e);
+            } catch (URISyntaxException e) {
+                Log.e("WebView", "Invalid URL format: " + url, e);
             } catch (ActivityNotFoundException e) {
                 Log.e("WebView", "No activity found to handle URL: " + url, e);
             }
+
             return true;
         }
 
