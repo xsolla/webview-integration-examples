@@ -44,3 +44,5 @@ ios/web-view/Pods/
 
 # Swift Package Manager
 ios/web-view/.build
+
+electron/webview/node_modules
