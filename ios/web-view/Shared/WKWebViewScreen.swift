@@ -2,7 +2,7 @@ import SwiftUI
 
 struct WKWebViewScreen: View {
     @State private var showWebView: Bool = false
-    @State private var address = "https://secure.xsolla.com/paystation4?token=3gokr0iLa6ltL7JFLNgu9eXznE503iyS_lc_en_bg_FFFFFF_tb_64F53D"
+    @State private var address = "https://secure.xsolla.com/paystation4/?token=YOUR_TOKEN"
     
     var body: some View {
         VStack {

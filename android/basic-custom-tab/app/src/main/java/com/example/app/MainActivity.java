@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 
         CustomTabsIntent intent = new CustomTabsIntent.Builder().build();
         EditText textInput = findViewById(R.id.text_url);
-        textInput.setText("https://secure.xsolla.com/paystation4?token=8sogNQRtP5rMg9fvl2JGxVbiGAPmk9oF_lc_ru");
+        textInput.setText("https://secure.xsolla.com/paystation4?token=YOUR_TOKEN");
 
         Button customTabBtn = findViewById(R.id.custom_tab_button);
         customTabBtn.setOnClickListener(v -> {

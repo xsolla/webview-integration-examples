@@ -6,6 +6,6 @@ See [documentation](https://developer.chrome.com/docs/android/custom-tabs/guide-
 ## Launch
 The launch is carried out via Cradle.
 
-You can setup url in MainActivity - `textInput.setText("https://secure.xsolla.com/paystation4?token=8sogNQRtP5rMg9fvl2JGxVbiGAPmk9oF_lc_ru");`
+You can setup url in MainActivity - `textInput.setText("https://secure.xsolla.com/paystation4?token=YOUR_TOKEN");`
 
 or using text input inside the application.

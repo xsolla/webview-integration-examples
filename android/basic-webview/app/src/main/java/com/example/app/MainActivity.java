@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new XsollaWebViewClient());
         mWebView.setWebChromeClient(new XsollaWebChromeClient());
 
-        mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohMVftnebxFDlUa50tUeUf3suXJygb_lc_en");
+        mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=YOUR_TOKEN");
     }
 
     @Override

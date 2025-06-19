@@ -35,7 +35,7 @@ app.on('ready', () => {
   });
 
   // WRITE YOUR URL HERE
-  void mainWindow.loadURL('https://tests-paystation-4.xsolla.site');
+  void mainWindow.loadURL('https://secure.xsolla.com/paystation4/?token=YOUR_TOKEN');
 })
 
 app.on('certificate-error', (event, webContents, url, error, certificate, callback) => {

@@ -4,4 +4,4 @@ This is the basic WebView implementation that partners are likely to have. There
 ## Launch
 The launch is carried out via Gradle.
 
-You can setup url in MainActivity - mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=u3ohTCeAejOzjimEjZ2wEhFtjR7yakUr_lc_en");
+You can setup url in MainActivity - mWebView.loadUrl("https://secure.xsolla.com/paystation4?token=YOUR_TOKEN");

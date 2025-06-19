@@ -70,7 +70,7 @@ extension Hostable {
 struct SafariWebView: View {
     struct RootView: View, Hostable {
         @EnvironmentObject private var hostedObject: HostingObject<Self>
-        @State private var address = "https://developers.google.com/pay/api/web/guides/resources/demos?hl=ru"
+        @State private var address = "https://secure.xsolla.com/paystation4/?token=YOUR_TOKEN"
     
         var body: some View {
             VStack {
